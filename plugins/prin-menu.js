@@ -82,16 +82,16 @@ ${line}
               videoMessage: mediaMessage.videoMessage
             },
             body: { text: txt },
-            footer: { text: "SHADOW-BOT-MD" },
+            footer: { text: "SHXDOWLYN" },
             nativeFlowMessage: {
               buttons: [
                 {
                   name: "single_select",
                   buttonParamsJson: JSON.stringify({
-                    title: "Shadow Interface",
+                    title: "Shxdowlyn Interface",
                     sections: [
                       {
-                        title: "Shadow Garden",
+                        title: "Shxdowlyn Garden",
                         highlight_label: "ELITE",
                         rows: [
                           { title: "Menú Completo", description: "Ver todos los comandos", id: `${usedPrefix}allmenu` },
@@ -104,37 +104,36 @@ ${line}
                 },
                 {
                   name: "cta_copy",
-                  buttonParamsJson: JSON.stringify({
-                    display_text: "Copiar Identidad",
-                    id: "shadow_core",
-                    copy_code: "I AM ATOMIC"
-                  })
-                },
-                {
-                  name: "cta_url",
-                  buttonParamsJson: JSON.stringify({
-                    display_text: "Canal Oficial",
-                    url: "https://whatsapp.com/channel/0029VbArz9fAO7RGy2915k3O"
-                  })
+  buttonParamsJson: JSON.stringify({
+    display_text: "Copiar Identidad",
+    id: "shxdowlyn_core",
+    copy_code: "I AM HAPPY"
+  })
+},
+{
+  name: "cta_url",
+  buttonParamsJson: JSON.stringify({
+    display_text: "Canal Oficial",
+    url: "https://whatsapp.com/channel/0029VbBx9210gcfSqAtvxf1t"                  })
                 }
               ],
               messageParamsJson: JSON.stringify({
-                limited_time_offer: {
-                  text: "Shadow Menu List",
-                  url: "https://whatsapp.com/channel/0029VbArz9fAO7RGy2915k3O",
-                  copy_code: "SHADOW-BOT-MD",
-                  expiration_time: 1754613436864329
+    limited_time_offer: {
+        text: "Shadow Menu List",
+        url: "https://whatsapp.com/channel/0029VbBx9210gcfSqAtvxf1t",
+        copy_code: "SHADOW-BOT-MD",
+        expiration_time: 1754613436864329
                 },
                 bottom_sheet: {
                   in_thread_buttons_limit: 2,
                   divider_indices: [1, 2],
-                  list_title: "Shadow Interface",
-                  button_title: "Open Shadow Menu"
+                  list_title: "Shxdowlyn Interface",
+                  button_title: "On Menu shxdowlyn"
                 },
                 tap_target_configuration: {
-                  title: "▸ SHADOW ◂",
+                  title: "▸ SHXDOWLYN ◂",
                   description: "Menú Principal",
-                  canonical_url: "https://whatsapp.com/channel/0029VbArz9fAO7RGy2915k3O",
+                  canonical_url: "https://whatsapp.com/channel/0029VbBx9210gcfSqAtvxf1t",
                   domain: "https://whatsapp.com",
                   button_index: 0
                 }
