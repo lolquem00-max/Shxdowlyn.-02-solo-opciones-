@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+.import fetch from 'node-fetch'
 import { exec } from 'child_process'
 import fs from 'fs'
 import util from 'util'
